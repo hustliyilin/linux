@@ -1,87 +1,87 @@
-$./pal_loader SGX lighttpd.manifest.sgx 
-[P42051] set tcb to 0xff88680
-[P42051] host: Linux-SGX
-[P42051] bkeep_unmapped: 0xb85c000-0xb85e000 => vma
-[P42051] allocate 0xb85c000-0xb85e000 for vmas
-[P42051] Converting early VMA [0xbb78060] 0x400000-0x62e000
-[P42051] Converting early VMA [0xbb780a8] 0xfffe000-0xffff09e
-[P42051] Converting early VMA [0xbb780f0] 0xb85f000-0xbb7c000
-[P42051] Converting early VMA [0xbb78138] 0xb85c000-0xb85e000
-[P42051] heap top adjusted to 0x3f1c000
-[P42051] bkeep_unmapped: 0xb84b000-0xb85c000 => slab
-[P42051] bkeep_unmapped: 0xb848000-0xb84b000 => slab
-[P42051] bkeep_unmapped: 0xb844000-0xb848000 => slab
-[P42051] bkeep_unmapped: 0xb83f000-0xb844000 => slab
-[P42051] bkeep_unmapped: 0xb838000-0xb83f000 => slab
-[P42051] shim loaded at 0xb85f000, ready to initialize
-[P42051] bkeep_unmapped: 0xb837000-0xb838000 => slab
-[P42051] bkeep_unmapped: 0xb835000-0xb837000 => slab
-[P42051] bkeep_unmapped: 0xb832000-0xb835000 => slab
-[P42051] mounting default root filesystem
-[P42051] bkeep_unmapped: 0xb830000-0xb832000 => slab
-[P42051] bkeep_unmapped: 0xb82e000-0xb830000 => slab
-[P42051] bkeep_munmap: 0xb830000-0xb832000
-[P42051] bkeep_munmap: 0xb82e000-0xb830000
-[P42051] mounting as proc filesystem: /proc
-[P42051] mounting as dev filesystem: /dev
-[P42051] mounting as chroot filesystem: from dev:tty to /dev
-[P42051] bkeep_unmapped: 0xb831000-0xb832000 => slab
-[P42051] bkeep_unmapped: 0xb830000-0xb831000 => slab
-[P42051] adding port (handle 0xbdae6f2) for process 0 (type 0001)
-[P42051] creating pipe: pipe.srv:1138622789
-[P42051] adding port (handle 0xbdb47f2) for process 0 (type 0002)
-[P42051] walk_thread_list(callback=0xb89fec2)
-[P42051] allocated pid: 1
-[P42051] bkeep_unmapped: 0xb82b000-0xb830000 => slab
-[     1] mounting as chroot filesystem: from file:../../../../../Runtime to /lib
-[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
-[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
-[     1] bkeep_munmap: 0xb829000-0xb82b000
-[     1] bkeep_munmap: 0xb827000-0xb829000
-[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
-[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
-[     1] bkeep_munmap: 0xb829000-0xb82b000
-[     1] bkeep_munmap: 0xb827000-0xb829000
-[     1] mounting as chroot filesystem: from file:/usr/lib64 to /usr/lib64
-[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
-[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
-[     1] bkeep_unmapped: 0xb824000-0xb827000 => slab
-[     1] bkeep_munmap: 0xb827000-0xb829000
-[     1] bkeep_unmapped: 0xb81f000-0xb824000 => slab
-[     1] bkeep_munmap: 0xb824000-0xb827000
-[     1] bkeep_munmap: 0xb829000-0xb82b000
-[     1] bkeep_munmap: 0xb81f000-0xb824000
-[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
-[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
-[     1] bkeep_unmapped: 0xb824000-0xb827000 => slab
-[     1] bkeep_munmap: 0xb827000-0xb829000
-[     1] bkeep_unmapped: 0xb81f000-0xb824000 => slab
-[     1] bkeep_munmap: 0xb824000-0xb827000
-[     1] bkeep_munmap: 0xb829000-0xb82b000
-[     1] bkeep_munmap: 0xb81f000-0xb824000
-[     1] mounting as chroot filesystem: from file:build/lib to /lighttpd
-[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
-[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
-[     1] bkeep_munmap: 0xb829000-0xb82b000
-[     1] bkeep_munmap: 0xb827000-0xb829000
-[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
-[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
-[     1] bkeep_munmap: 0xb829000-0xb82b000
-[     1] bkeep_munmap: 0xb827000-0xb829000
-[     1] mounting as chroot filesystem: from file:html to /mnt/jack.wxz/graphene-ubuntu-1/LibOS/shim/test/apps/lighttpd/html
-[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
-[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
-[     1] bkeep_unmapped: 0xb825000-0xb827000 => slab
-[     1] bkeep_munmap: 0xb827000-0xb829000
-[     1] bkeep_munmap: 0xb825000-0xb827000
-[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
-[     1] bkeep_unmapped: 0xb825000-0xb827000 => slab
-[     1] bkeep_munmap: 0xb827000-0xb829000
-[     1] bkeep_munmap: 0xb825000-0xb827000
-[     1] mounting as chroot filesystem: from file:/usr to /usr
+./pal_loader  SGX  lighttpd.manifest.sgx
+manifest  file:  file:lighttpd.manifest.sgx
+executable  file:  file:lighttpd
+token  file:  file:lighttpd.token
+read  token:
+        valid:                0x00000001
+        attr:                  0x0000000000000006
+        xfrm:                  0x0000000000000007
+        miscmask:          0x00000000
+        attr_mask:        0x0000000000000021
+        xfrm_mask:        0x0000000000000000
+enclave  created:
+        base:                  0x0000000000000000
+        size:                  0x0000000010000000
+        miscselect:      0x00000000
+        attr:                  0x0000000000000007
+        xfrm:                  0x0000000000000007
+        ssaframesize:  1
+        isvprodid:        0x00000000
+        isvsvn:              0x00000000
+adding  page    to  enclave:  0xffff000  [REG:R--]  (manifest)  measured
+adding  pages  to  enclave:  0xffc6000-0xfffe000  [REG:RW-]  (ssa)  measured
+adding  pages  to  enclave:  0xffa9000-0xffc5000  [TCS:---]  (tcs)  measured
+adding  pages  to  enclave:  0xff8c000-0xffa8000  [REG:RW-]  (tls)  measured
+adding  pages  to  enclave:  0xff7b000-0xff8b000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xff6a000-0xff7a000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xff59000-0xff69000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xff48000-0xff58000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xff37000-0xff47000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xff26000-0xff36000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xff15000-0xff25000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xff04000-0xff14000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfef3000-0xff03000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfee2000-0xfef2000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfed1000-0xfee1000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfec0000-0xfed0000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfeaf000-0xfebf000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfe9e000-0xfeae000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfe8d000-0xfe9d000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfe7c000-0xfe8c000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfe6b000-0xfe7b000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfe5a000-0xfe6a000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfe49000-0xfe59000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfe38000-0xfe48000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfe27000-0xfe37000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfe16000-0xfe26000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfe05000-0xfe15000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfdf4000-0xfe04000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfde3000-0xfdf3000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfdd2000-0xfde2000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfdc1000-0xfdd1000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xfdb0000-0xfdc0000  [REG:RW-]  (stack)  measured
+adding  pages  to  enclave:  0xbb7c000-0xbbaa000  [REG:R-X]  (code)  measured
+addi ng pages to enclave: 0xbda9000-0xbdab000 [REG:RW-] (data) measured
+adding pages to enclave: 0xbdab000-0xfdaf000 [REG:RW-] (bss) measured
+adding pages to enclave: 0x400000-0x42d000 [REG:RWX] (code) measured
+adding pages to enclave: 0x62c000-0x62e000 [REG:RW-] (data) measured
+adding pages to enclave: 0x62e000-0xbb7b000 [REG:RWX] (free)
+adding pages to enclave: 0x10000-0x400000 [REG:RWX] (free)
+enclave initializing:
+    enclave id:   0x000000000ffff000
+    enclave hash: 0d 89 80 7c e5 56 6d d4 07 35 73 81 a9 c1 21 ef a0 10 e4 8b 06 f5 eb 96 1c 0c c3 3a 73 a4 4d d2
+Get sealing key: 328daf12cb663cccc8cffcf2fcfa4f2e
+enclave (software) key hash: 4a038a3abbdc04f33928f5ebbd6db347d30e516b8f3bfc85f4bb52e6ac98ab94
+trusted: [1] fd5efce6e3fecf617369df39fd0a8ff4343bb5bb49be32869887cb214c99794b file:build/sbin/lighttpd
+trusted: [2] 00415fe5f7501b3732a033d50dd552b091c5966b0ef875557d6f97fc5c9bfd7f file:../../../../../Runtime/libsysdb.so
+trusted: [3] 1b394d0c41970101258edcb6fbc229c9b7225f6b7ff65d10eaf25bd98e6b86bb file:../../../../../Runtime/ld-linux-x86-64.so.2
+trusted: [4] 43440982c203892949a674a6ca61e56b326fa0d29c1954675a2a1ad11a540cc0 file:../../../../../Runtime/libc.so.6
+trusted: [5] 35c9d0ea046de767dc107d7a714bfaf0a502419a95810d71a2b7597a70de242b file:../../../../../Runtime/libdl.so.2
+trusted: [6] 142a5cf7dcf38c583b830bbc469139a16c239d4dc2d1c6aab334315e33f60016 file:../../../../../Runtime/libm.so.6
+trusted: [7] 04675f02c5bb02e38c4e81155c672aa1a15323fefd0550b782002592ad845e4f file:../../../../../Runtime/libpthread.so.0
+trusted: [8] 36e5196f1f2eb96d0c09b0ad1aff72ce6e8304211eb1cc5c2804af59be111139 file:/usr/lib64/libssl.so.1.0.2k
+trusted: [9] 847cccd527e1d63a6203ef98991d422877d133111b8a4911f6f3f8d228af5989 file:/usr/lib64/libcrypto.so.1.0.2k
+trusted: [10] af4006d29f484b0b60168b2859ab3bbcc5b3386acc64e0a90e36ce32c56681e9 file:build/lib/mod_indexfile.so
+trusted: [11] c55b451a704f2f373508044b0c3a950a70b5d57c8c2e70d02258ed4c00df4a2e file:build/lib/mod_dirlisting.so
+trusted: [12] 615b7d86725c17c169c470a911489f1e8532db2a4fd5ca99f332d2e8e69f3ef0 file:build/lib/mod_staticfile.so
+trusted: [13] ed5042f70879c1cdedf26d872950668e6c737962b2e3ac0968c8c9eb0f7be455 file:lighttpd.conf
+trusted: [14] 4ea72278eb216b087334b749447b61b761af8ca036db4a6e3400137ca89769f8 file:lighttpd-generic.conf
+trusted: [15] 3504144c95541a63b8fb8ffa78d90d848ef72cc899373b8112ba4e423c9c0873 file:lighttpd-server.conf
+trusted: [16] 6fe408b3f30f25631824b8107d719d61ac2fad49d811533b926163a03547713c file:lighttpd-multithreaded.conf
+trusted: [17] c88ee03e74e428462f399e5cfffafb5723e42c27023d75a3f77d85fe07a00361 file:lighttpd-ssl.conf
+trusted: [18] 96653a72a5c3fef8abce329d25ace2880aad6004f1d63541ae2faaeff69d84a5 file:server.pem
+trusted: [19] a0b62495376f04205be9612fef20f6ff3f485ddd3bff954aef3670c0cc5c80bf file:dhparam.pem
+allowed: file:html
 assert failed fs/shim_fs.c:454 dent == dentry_root || !(dent->state & DENTRY_VALID) (value:0)
-[     1] teminating the whole process (-131)
-[     1] deleting port 0xb8300c0 (handle 0xbdb47f2) for process 0
-[     1] deleting port 0xb830048 (handle 0xbdae6f2) for process 0
-[     1] process 42051 exited with status -131
-Saturation error in exit code -131, getting rounded down to 125
+DkProcessExit: Returning exit code -131
+Saturation error in exit code -131, gettin
