@@ -1,0 +1,87 @@
+$./pal_loader SGX lighttpd.manifest.sgx 
+[P42051] set tcb to 0xff88680
+[P42051] host: Linux-SGX
+[P42051] bkeep_unmapped: 0xb85c000-0xb85e000 => vma
+[P42051] allocate 0xb85c000-0xb85e000 for vmas
+[P42051] Converting early VMA [0xbb78060] 0x400000-0x62e000
+[P42051] Converting early VMA [0xbb780a8] 0xfffe000-0xffff09e
+[P42051] Converting early VMA [0xbb780f0] 0xb85f000-0xbb7c000
+[P42051] Converting early VMA [0xbb78138] 0xb85c000-0xb85e000
+[P42051] heap top adjusted to 0x3f1c000
+[P42051] bkeep_unmapped: 0xb84b000-0xb85c000 => slab
+[P42051] bkeep_unmapped: 0xb848000-0xb84b000 => slab
+[P42051] bkeep_unmapped: 0xb844000-0xb848000 => slab
+[P42051] bkeep_unmapped: 0xb83f000-0xb844000 => slab
+[P42051] bkeep_unmapped: 0xb838000-0xb83f000 => slab
+[P42051] shim loaded at 0xb85f000, ready to initialize
+[P42051] bkeep_unmapped: 0xb837000-0xb838000 => slab
+[P42051] bkeep_unmapped: 0xb835000-0xb837000 => slab
+[P42051] bkeep_unmapped: 0xb832000-0xb835000 => slab
+[P42051] mounting default root filesystem
+[P42051] bkeep_unmapped: 0xb830000-0xb832000 => slab
+[P42051] bkeep_unmapped: 0xb82e000-0xb830000 => slab
+[P42051] bkeep_munmap: 0xb830000-0xb832000
+[P42051] bkeep_munmap: 0xb82e000-0xb830000
+[P42051] mounting as proc filesystem: /proc
+[P42051] mounting as dev filesystem: /dev
+[P42051] mounting as chroot filesystem: from dev:tty to /dev
+[P42051] bkeep_unmapped: 0xb831000-0xb832000 => slab
+[P42051] bkeep_unmapped: 0xb830000-0xb831000 => slab
+[P42051] adding port (handle 0xbdae6f2) for process 0 (type 0001)
+[P42051] creating pipe: pipe.srv:1138622789
+[P42051] adding port (handle 0xbdb47f2) for process 0 (type 0002)
+[P42051] walk_thread_list(callback=0xb89fec2)
+[P42051] allocated pid: 1
+[P42051] bkeep_unmapped: 0xb82b000-0xb830000 => slab
+[     1] mounting as chroot filesystem: from file:../../../../../Runtime to /lib
+[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
+[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
+[     1] bkeep_munmap: 0xb829000-0xb82b000
+[     1] bkeep_munmap: 0xb827000-0xb829000
+[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
+[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
+[     1] bkeep_munmap: 0xb829000-0xb82b000
+[     1] bkeep_munmap: 0xb827000-0xb829000
+[     1] mounting as chroot filesystem: from file:/usr/lib64 to /usr/lib64
+[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
+[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
+[     1] bkeep_unmapped: 0xb824000-0xb827000 => slab
+[     1] bkeep_munmap: 0xb827000-0xb829000
+[     1] bkeep_unmapped: 0xb81f000-0xb824000 => slab
+[     1] bkeep_munmap: 0xb824000-0xb827000
+[     1] bkeep_munmap: 0xb829000-0xb82b000
+[     1] bkeep_munmap: 0xb81f000-0xb824000
+[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
+[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
+[     1] bkeep_unmapped: 0xb824000-0xb827000 => slab
+[     1] bkeep_munmap: 0xb827000-0xb829000
+[     1] bkeep_unmapped: 0xb81f000-0xb824000 => slab
+[     1] bkeep_munmap: 0xb824000-0xb827000
+[     1] bkeep_munmap: 0xb829000-0xb82b000
+[     1] bkeep_munmap: 0xb81f000-0xb824000
+[     1] mounting as chroot filesystem: from file:build/lib to /lighttpd
+[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
+[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
+[     1] bkeep_munmap: 0xb829000-0xb82b000
+[     1] bkeep_munmap: 0xb827000-0xb829000
+[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
+[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
+[     1] bkeep_munmap: 0xb829000-0xb82b000
+[     1] bkeep_munmap: 0xb827000-0xb829000
+[     1] mounting as chroot filesystem: from file:html to /mnt/jack.wxz/graphene-ubuntu-1/LibOS/shim/test/apps/lighttpd/html
+[     1] bkeep_unmapped: 0xb829000-0xb82b000 => slab
+[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
+[     1] bkeep_unmapped: 0xb825000-0xb827000 => slab
+[     1] bkeep_munmap: 0xb827000-0xb829000
+[     1] bkeep_munmap: 0xb825000-0xb827000
+[     1] bkeep_unmapped: 0xb827000-0xb829000 => slab
+[     1] bkeep_unmapped: 0xb825000-0xb827000 => slab
+[     1] bkeep_munmap: 0xb827000-0xb829000
+[     1] bkeep_munmap: 0xb825000-0xb827000
+[     1] mounting as chroot filesystem: from file:/usr to /usr
+assert failed fs/shim_fs.c:454 dent == dentry_root || !(dent->state & DENTRY_VALID) (value:0)
+[     1] teminating the whole process (-131)
+[     1] deleting port 0xb8300c0 (handle 0xbdb47f2) for process 0
+[     1] deleting port 0xb830048 (handle 0xbdae6f2) for process 0
+[     1] process 42051 exited with status -131
+Saturation error in exit code -131, getting rounded down to 125
